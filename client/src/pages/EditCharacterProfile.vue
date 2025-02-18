@@ -21,6 +21,7 @@
             <q-checkbox v-model="character.showRumors" @update:model-value="updateCharacter" label="Zeige Gerüchte" />
             <q-checkbox v-model="character.showDiary" @update:model-value="updateCharacter" label="Zeige Tagebuch" />
             <q-checkbox v-model="character.showGallery" @update:model-value="updateCharacter" label="Zeige Galerie" />
+            <q-checkbox v-model="character.showInventory" @update:model-value="updateCharacter" label="Zeige Inventar" />
           </section>
         </section>
         <banner-edit-section v-model="character.banner" />

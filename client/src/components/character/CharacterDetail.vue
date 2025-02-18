@@ -47,9 +47,9 @@ export default class CharacterDetail extends Vue.with(Props) {
 <style lang="scss">
 .character-detail {
   display: flex;
-  flex-basis: 0;
+  flex-basis: 50%;
   flex-grow: 0.5;
-  min-width: 320px;
+  max-width: 50%;
   border-bottom: 1px solid #ddd;
   margin-bottom: -1px; /* So that odd last child doesn't have uneven borders */
 }

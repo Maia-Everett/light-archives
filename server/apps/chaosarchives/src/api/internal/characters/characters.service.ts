@@ -345,7 +345,7 @@ export class CharactersService {
         showRumors: characterDto.showRumors,
         showDiary: characterDto.showDiary,
         showGallery: characterDto.showGallery,
-        showInventory: character.showInventory,
+        showInventory: characterDto.showInventory,
         combinedDescription: characterDto.combinedDescription,
 			});
 
