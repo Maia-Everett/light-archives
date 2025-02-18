@@ -353,7 +353,9 @@ export class CharactersService {
         const banner = await em.getRepository(Image).findOne({
           where: {
             id: characterDto.banner.id,
-            owner: character
+            owner: {
+              id: character.id,
+            }
           }
         });
 
